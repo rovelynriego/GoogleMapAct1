@@ -73,7 +73,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         //Raymond Pablo
         LatLng Nancalobasan = new LatLng(16.001862052804643, 120.61098819895534);
-        mMap.addMarker(new MarkerOptions().position(Nancalobasan).title("Santo Tomas"));
+        mMap.addMarker(new MarkerOptions().position(Nancalobasan).title("Nancalobasan"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Nancalobasan));
 
         mMap.addPolyline(new PolylineOptions()
@@ -110,7 +110,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .color(Color.BLUE));
 //Pacetes Kristan Pauk
         LatLng SanManuel = new LatLng(16.082435464544428, 120.68073157793239);
-        mMap.addMarker(new MarkerOptions().position(SanManuel).title("Santo Tomas"));
+        mMap.addMarker(new MarkerOptions().position(SanManuel).title("San Manuel"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(SanManuel));
 
         mMap.addPolyline(new PolylineOptions()
@@ -149,7 +149,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .color(Color.BLUE));
         //Saura John Michael
         LatLng Matulong = new LatLng(15.991995230709788, 120.49144335638519);
-        mMap.addMarker(new MarkerOptions().position(Matulong).title("Santo Tomas"));
+        mMap.addMarker(new MarkerOptions().position(Matulong).title("Matulong"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Matulong));
 
         mMap.addPolyline(new PolylineOptions()
