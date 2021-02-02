@@ -142,14 +142,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         new LatLng(15.976301297139152, 120.5696300699931),
                         new LatLng(15.9782003382142, 120.57066003818751))
 
-
                 .width(10)
                 .color(Color.BLUE));
         //Saura John Michael
         LatLng Matulong = new LatLng(15.991995230709788, 120.49144335638519);
         mMap.addMarker(new MarkerOptions().position(Matulong).title("Matulong"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Matulong));
-
         mMap.addPolyline(new PolylineOptions()
                 .add(new LatLng(15.991995230709788, 120.49144335638519),
                         new LatLng(15.991417666483317, 120.49110003365371),
