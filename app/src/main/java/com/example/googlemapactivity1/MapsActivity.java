@@ -133,8 +133,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         new LatLng(16.039663179555106, 120.66713373107073),
                         new LatLng(16.008314760868405, 120.66850702047148),
                         new LatLng(16.001384445409087, 120.6582073347143),
-
-
                         new LatLng(15.995774014414584, 120.6492809436959),
                         new LatLng(15.981252167692748, 120.62662164341837),
                         new LatLng(15.977951600934372, 120.61048547503891),
